@@ -46,7 +46,9 @@ function playAudio() {
     console.log("SUCCESS!")
 }
 
-
+function musicPlay() {
+    document.getElementById('player').play();
+}
 
 function rollDice(){
     const rollResult = Math.floor(Math.random() * 6+1)
